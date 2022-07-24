@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <!-- Page title -->
+    <title>Appointment | AutoMob-Mechanic </title>
+    <link rel="stylesheet" href="style6.css">
+
+</head>
+ 
+<!-- Body Section content -->
+<body>
+ 
+    <h1><a href="https://www.w3.org/">AutoMob-Mechanic</a></h1>
+ 
+    <!-- Used to display paragrapg content -->
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="booking.html">Booking</a></li>
+        <li><a href="mailto:email@example.com">contact@automob.co.in</a></li>
+        <li id="abc"><a href="">999 999 9999 ☎️</a></li>
+      </ul>
+    <main>
+        <hr>
+        <br>
+        <h1>Schedule Your Appointment</h1>
+        <br>
+
+        <form action="submit" method="POST" autocomplete="off">
+            <label for="date">Appointment Date:</label>
+            <input type="date" id="date" name="date" value="" autocomplete="off" placeholder="" required><br><br>
+            <label for="Address">Address:</label>
+            <textarea id="Address" name="Address" rows="6" cols="35" required></textarea><br><br>
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" value="" placeholder="Mumbai, Pune" required><br><br>
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" value="" placeholder="Kerela, Maharashtra" required><br><br>
+            <label for="fueltype">Send Notification:</label>
+              <input type="checkbox" id="email" name="email" value="email">
+              <label for="email" class="radio-inline">Email</label>
+              <input type="checkbox" id="sms" name="sms" value="sms">
+              <label for="sms" class="radio-inline">SMS</label><br><br><br>
+             
+
+
+            <button name="ssubmit" type="submit" value="submit">Book</button><br><br><br><br>
+        </form>
+    </main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <p>Copyright © 2022 AutoMob-Mechanic. All Rights Reserved.</p>
+    </footer>
+</body>
+ 
+</html>
+
